@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #BAF2E9;
+}
+h1{
+    text-align: center;
+    background-color: #183642;
+    padding: 20px;
+    color: #CBC5EA;
+}
+#attmpt_back{
+    text-align: end;
+}
+#attmpt_rem{
+    /* height: 100px;
+    width: 100px; */
+    background-color: #F2E2BA;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 25px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+#game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+#input{
+    height: 40px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin-top: 100px;
+    font-size: 25px;
+    text-align: end;
+    padding-right: 10px;
+}
+#btn1{
+    border-radius: 1rem;
+    border: 2px solid black;
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 1rem;
+    background-color: #F7EF99;
+    color: #191919;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+#reset{
+    border-radius: 1rem;
+    border: 2px solid black;
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 1rem;
+    background-color: #F7EF99;
+    color: #191919;
+    cursor: pointer;
+}
+
+#reset:hover{
+    border: 5px solid black;
+}
+
+#btn1:hover{
+    border: 5px solid black;
+}
+#msg{
+    font-size: 25px;
+    background-color: #F7EF99;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+    /* color: white; */
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: row;
+}
